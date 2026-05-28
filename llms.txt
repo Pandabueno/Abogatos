@@ -1,0 +1,59 @@
+# Bufete Jurídico Monzón & Franco
+
+> Despacho de abogados en Huehuetenango, Guatemala. Servicios legales
+> en derecho familiar, penal, laboral, civil y notariado.
+> Sitio web: https://www.monzonfrancoabogados.com
+
+## Socios
+
+- **Licda. Karolyn Galilea Monzón de León** — Abogada y Notaria, socia fundadora.
+  Especialista en derecho familiar, civil y notariado. Incorporada al Colegio de Abogados y Notarios de Guatemala.
+
+- **Lic. Francisco Gerardo Franco Ramos** — Abogado y Notario, socio fundador.
+  Especialista en derecho penal y laboral. Incorporado al Colegio de Abogados y Notarios de Guatemala.
+
+## Áreas de práctica
+
+- **Derecho Familiar**: divorcios voluntarios y contenciosos, pensión alimenticia,
+  custodia y régimen de visitas, reconocimiento de hijos, herencias, adopciones,
+  uniones de hecho, medidas de protección por violencia intrafamiliar.
+
+- **Derecho Penal**: defensa penal integral, representación en procesos criminales,
+  solicitud de medidas sustitutivas, recursos de apelación y casación,
+  acompañamiento a víctimas como querellantes adhesivos.
+
+- **Derecho Laboral**: despidos injustificados, cobro de prestaciones laborales
+  (vacaciones, aguinaldo, Bono 14), reinstalación, conflictos colectivos,
+  representación ante la Inspección General de Trabajo.
+
+- **Derecho Civil**: contratos, incumplimiento contractual, cobros judiciales,
+  litigios por propiedad, daños y perjuicios, medidas cautelares y embargos.
+
+- **Notariado**: escrituras de compraventa, poderes notariales (generales y especiales),
+  testamentos, donaciones, constitución de sociedades, autenticaciones,
+  divorcio voluntario por escritura pública, contratos de arrendamiento.
+
+## Contacto
+
+- **Teléfono 1**: +502 5057 3561
+- **Teléfono 2**: +502 3368 5030
+- **WhatsApp**: +502 5057 3561
+- **Email**: legalmenteguate@gmail.com
+- **Sede Huehuetenango**: 1ra. Avenida 1-36 Zona 8, Huehuetenango, Guatemala
+- **Sede Malacatancito**: El Calvario, Malacatancito, Huehuetenango, Guatemala
+- **Horario**: Lunes a sábado, 8:00 — 18:00
+
+## Páginas del sitio
+
+- `/index.html` — Página de inicio: presentación del bufete, servicios, por qué elegirnos, testimonios, mapa.
+- `/servicios.html` — Descripción detallada de los cinco servicios legales con casos específicos que se atienden.
+- `/equipo.html` — Perfiles profesionales de los dos socios fundadores y valores del despacho.
+- `/blog.html` — Seis artículos legales útiles y sección FAQ con 10 preguntas frecuentes respondidas por los abogados.
+- `/contacto.html` — Formulario de consulta, datos de contacto, mapa de ubicación y nota de confidencialidad.
+
+## Información adicional
+
+El Bufete Jurídico Monzón & Franco opera bajo la denominación comercial "Legalmente"
+(dominio: monzonfrancoabogados.com) y tiene presencia en dos sedes del departamento de
+Huehuetenango, Guatemala. Atiende principalmente a familias y empresas del altiplano
+guatemalteco, con énfasis en accesibilidad y comunicación directa entre cliente y abogados titulares.
