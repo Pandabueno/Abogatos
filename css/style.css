@@ -283,7 +283,7 @@ p:last-child { margin-bottom: 0; }
 .services-section { padding: 6rem 0; background: var(--c-white); }
 .services-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(200px, 100%), 1fr));
   gap: 1.4rem;
   margin-top: 3rem;
 }
@@ -296,6 +296,7 @@ p:last-child { margin-bottom: 0; }
   display: flex;
   flex-direction: column;
   gap: .9rem;
+  min-width: 0;
 }
 .service-card:hover { border-color: var(--c-gold); box-shadow: var(--sh-md); transform: translateY(-4px); }
 .service-icon {
@@ -323,12 +324,13 @@ p:last-child { margin-bottom: 0; }
 .why-section .section-sub { color: rgba(255,255,255,.6); }
 .why-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(220px, 100%), 1fr));
   gap: 1.75rem;
   margin-top: 3rem;
 }
 .why-card {
   padding: 2rem;
+  min-width: 0;
   border: 1px solid rgba(255,255,255,.08);
   border-radius: var(--r-lg);
   background: rgba(255,255,255,.03);
@@ -350,7 +352,7 @@ p:last-child { margin-bottom: 0; }
 .testimonials-section { padding: 6rem 0; background: var(--c-light); }
 .testimonials-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr));
   gap: 1.5rem;
   margin-top: 3rem;
 }
@@ -360,6 +362,7 @@ p:last-child { margin-bottom: 0; }
   border-radius: var(--r-lg);
   box-shadow: var(--sh-sm);
   position: relative;
+  min-width: 0;
 }
 .testimonial-card::before {
   content: '\201C';
@@ -550,7 +553,7 @@ p:last-child { margin-bottom: 0; }
 .team-section { padding: 5rem 0; background: var(--c-white); }
 .team-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr));
   gap: 2.5rem;
   margin-top: 3rem;
 }
@@ -589,7 +592,7 @@ p:last-child { margin-bottom: 0; }
 .values-section { padding: 5rem 0; background: var(--c-light); }
 .values-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(150px, 100%), 1fr));
   gap: 1.5rem;
   margin-top: 3rem;
 }
@@ -599,6 +602,7 @@ p:last-child { margin-bottom: 0; }
   background: var(--c-white);
   border-radius: var(--r-lg);
   box-shadow: var(--sh-sm);
+  min-width: 0;
 }
 .value-icon {
   width: 54px; height: 54px;
@@ -614,7 +618,7 @@ p:last-child { margin-bottom: 0; }
 .blog-section { padding: 5rem 0; background: var(--c-white); }
 .blog-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr));
   gap: 2rem;
   margin-top: 3rem;
 }
@@ -623,6 +627,7 @@ p:last-child { margin-bottom: 0; }
   border-radius: var(--r-lg);
   overflow: hidden;
   transition: box-shadow var(--trans), transform var(--trans);
+  min-width: 0;
 }
 .blog-card:hover { box-shadow: var(--sh-md); transform: translateY(-3px); }
 .blog-card-img { height: 200px; overflow: hidden; }
