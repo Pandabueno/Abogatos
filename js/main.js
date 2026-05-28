@@ -181,11 +181,20 @@
     var gPrivacy = form.querySelector('#group-privacy');
     if (!privacyCb || !privacyCb.checked) { showErr(gPrivacy, 'Debes aceptar la política de privacidad.'); ok = false; } else clearErr(gPrivacy);
 
-    if (ok && success) {
-      success.style.display = 'block';
-      form.reset();
-      form.querySelectorAll('.form-group').forEach(function (g) { clearErr(g); });
-      success.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    if (ok) {
+      var data = new FormData(form);
+      fetch('/', { method: 'POST', body: data })
+        .then(function () {
+          if (success) {
+            success.style.display = 'block';
+            success.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+          }
+          form.reset();
+          form.querySelectorAll('.form-group').forEach(function (g) { clearErr(g); });
+        })
+        .catch(function () {
+          alert('Hubo un problema al enviar el formulario. Por favor llámenos al +502 5057 3561.');
+        });
     }
   });
 })();
