@@ -972,8 +972,8 @@ p:last-child { margin-bottom: 0; }
 .article-content h3 { font-size: 1.02rem; margin: 1.4rem 0 .45rem; color: var(--c-base); }
 .article-content p { font-size: .92rem; line-height: 1.85; color: var(--c-gray); margin-bottom: .9rem; }
 .article-content ul { margin: .75rem 0 1rem; display: flex; flex-direction: column; gap: .4rem; }
-.article-content ul li { display: flex; align-items: flex-start; gap: .65rem; font-size: .9rem; line-height: 1.65; color: var(--c-gray); }
-.article-content ul li::before { content: ''; display: block; width: 5px; height: 5px; border-radius: 50%; background: var(--c-gold); flex-shrink: 0; margin-top: .58rem; }
+.article-content ul li { position: relative; padding-left: 1rem; font-size: .9rem; line-height: 1.65; color: var(--c-gray); }
+.article-content ul li::before { content: ''; position: absolute; left: 0; top: .6rem; width: 5px; height: 5px; border-radius: 50%; background: var(--c-gold); }
 .article-content strong { color: var(--c-base); font-weight: 600; }
 .article-note {
   padding: .9rem 1.1rem; background: rgba(201,168,76,.07);
